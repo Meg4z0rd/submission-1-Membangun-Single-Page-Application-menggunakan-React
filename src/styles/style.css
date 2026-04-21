@@ -1,0 +1,182 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* 🔥 DARK */
+  color: #e5e5e5;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1f1f1f;
+  color: white;
+  padding: 15px 20px;
+  border-bottom: 1px solid #333;
+}
+
+.nav-links a {
+  margin-left: 15px;
+  color: #e5e5e5;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #8b5cf6;
+}
+
+.search-bar input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #1f1f1f;
+  color: white;
+}
+
+.note-item {
+  background: #1e1e1e;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  border: 1px solid #2c2c2c;
+  transition: 0.2s;
+}
+
+.note-item:hover {
+  transform: translateY(-2px);
+  border-color: #444;
+}
+
+.note-item h3 {
+  margin: 0;
+  color: #ffffff;
+}
+
+.note-item p {
+  color: #a1a1a1;
+}
+
+.note-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.detail-page {
+  padding: 20px;
+  color: #e5e5e5;
+}
+
+.detail-page h1 {
+  font-size: 32px;
+}
+
+.detail-page p {
+  color: #a1a1a1;
+}
+
+.floating-action {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.floating-action button {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  transition: 0.2s;
+}
+
+.archive-btn {
+  background: #10b981;
+  color: white;
+}
+
+.archive-btn:hover {
+  background: #059669;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
+
+.add-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.add-form {
+  width: 100%;
+  max-width: 500px;
+  padding: 25px;
+  border-radius: 12px;
+  background: #1e1e1e;
+  border: 1px solid #333;
+}
+
+.add-form h2 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.add-form input,
+.add-form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #121212;
+  color: white;
+  font-size: 14px;
+}
+
+
+.add-form input:focus,
+.add-form textarea:focus {
+  outline: none;
+  border-color: #8b5cf6;
+}
+
+.add-form button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #8b5cf6;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-form button:hover {
+  background: #7c3aed;
+}
+
+.note-date {
+  font-size: 12px;
+  color: #a1a1a1;
+  margin: 5px 0;
+}
